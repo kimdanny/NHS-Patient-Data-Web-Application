@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Patient Data App</title>
+</head>
+<body>
+<div class="main">
+    <h1>Advanced Search</h1>
+
+    <h3>Welcome to Advanced Search</h3>
+
+    <form method="POST" action="/runAdvancedSearch.html">
+
+        Search by Address Information<br>
+        City:
+        <input type="text" name="searchCity" placeholder="Search by City">
+        ZIP:
+        <input type="text" name="searchZip" placeholder="Search by ZIP"><br><br>
+
+        Select Gender
+        <select name="Gender">
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+            <!--<option value="others">Don't care</option>-->
+        </select>
+        <br>
+
+        Select Marital Status
+        <select name="Marital">
+            <option value="M">Married</option>
+            <option value="S">Single</option>
+            <!--<option value="others">Don't care</option>-->
+        </select>
+        <br>
+
+        Select Race
+        <select name="Race">
+            <option value="white">White</option>
+            <option value="asian">Asian</option>
+            <option value="black">Black</option>
+            <option value="hispanic">Hispanic</option>
+            <!--<option value="others">Don't Care</option>-->
+        </select>
+        <br>
+
+        <br>
+        <input type="submit" value="Search"/>
+    </form>
+</div>
+</body>
+</html>
